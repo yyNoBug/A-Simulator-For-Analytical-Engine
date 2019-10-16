@@ -92,11 +92,6 @@ function draw_store() {
     }
 }
 
-function draw_output_box() {
-    t = document.getElementById("text");
-    t.innerHTML = "请在此处键入输出内容";
-}
-
 function draw_mill() {
 
     var l_start = (left_space) * per_pixw;
