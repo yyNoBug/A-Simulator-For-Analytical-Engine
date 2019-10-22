@@ -14,7 +14,7 @@ function excecute(i) {
         draw_canvas();
         draw_store();
         draw_mill();
-        setTimeout(function(a){ excecute(a); }, 1000, i - 1);
+        setTimeout(function(a){ excecute(a); }, 400, i - 1);
     }
     else {
         isExecuting = false;
