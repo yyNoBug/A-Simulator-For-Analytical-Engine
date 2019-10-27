@@ -36,7 +36,7 @@ function nextstep() {
         get_data();
         get_output();
         draw_canvas();
-        draw_store();
-        draw_mill();
+        draw_store_with_judgements();
+        draw_mill_with_judgements();
     }
 }

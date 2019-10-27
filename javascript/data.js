@@ -51,17 +51,24 @@ var data_set = new Object();
 data_set.size = 0;
 data_set.content = new Array();
 data_set.content[0] = new Object();
+data_set.content[0].change = new Object();
 data_set.content[0].op = "~";
+data_set.content[0].change.op = false;
 data_set.content[0].runup = 0;
+data_set.content[0].change.runup = false;
 data_set.content[0].digits = new Array();
+data_set.content[0].change.regs = new Array();
 for (var i = 0; i < 5 + store_size; ++i) {
     data_set.content[0].digits[i] = new Array();
+    data_set.content[0].change.regs[i] = false;
     for (var j = 0; j < digits; ++j) {
         data_set.content[0].digits[i][j] = 0;
     }
 }
-data_set.content[data_set.size].output = "";
-data = data_set.content[0];
+data_set.content[0].output = "";
+
+
+//data = data_set.content[0];
 
 
 function cal_digit(num) {
@@ -96,7 +103,7 @@ function readin() {
         data_cur.op = buildinfo[start - 4];
         data_cur.change.op = (data_cur.op == data_pre.op) ? false : true;
         data_cur.runup = buildinfo[start - 2];
-        data_cur.change.runup = (data_cur.op == data_pre.runup) ? false : true;
+        data_cur.change.runup = (data_cur.runup == data_pre.runup) ? false : true;
         data_cur.digits = new Array();
         data_cur.change.regs = new Array();
 

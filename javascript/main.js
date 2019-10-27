@@ -12,9 +12,9 @@ function excecute(i) {
         get_data();
         get_output();
         draw_canvas();
-        draw_store();
-        draw_mill();
-        setTimeout(function(a){ excecute(a); }, 400, i - 1);
+        draw_store_with_judgements();
+        draw_mill_with_judgements();
+        setTimeout(function(a){ excecute(a); }, 1200, i - 1);
     }
     else {
         isExecuting = false;
@@ -23,6 +23,7 @@ function excecute(i) {
 }
 
 readin();
+get_data();
 draw_canvas();
 draw_store();
 draw_mill();
