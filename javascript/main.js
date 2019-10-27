@@ -8,7 +8,7 @@ function excecute(i) {
         isExecuting = false;
         return;
     }
-    if (curStep < data_set.size) {
+    if (curStep <= data_set.size) {
         get_data();
         get_output();
         draw_canvas();

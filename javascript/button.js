@@ -32,7 +32,7 @@ function stopit() {
 
 function nextstep() {
     pauseit();
-    if (curStep < data_set.size){
+    if (curStep <= data_set.size){
         get_data();
         get_output();
         draw_canvas();
