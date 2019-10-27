@@ -160,19 +160,24 @@ function readin() {
     while (read_length < input_length) {
         data_set.size++;
 
+        // Get the substring for information of Step(data_set.size).
         var start = read_length + 11 + cal_digit(data_set.size);
         var sub = buildinfo.slice(start, input_length);
         var end = sub.search("Step", start + 10);
         if (end == -1) end = input_length;
-        
+        sub = sub.slice(0, end);
         read_length = start + end;
-
         
+        // Collecting data.
         data_set.content[data_set.size] = new Object();
         var data_cur = data_set.content[data_set.size];
         var data_pre = data_set.content[data_set.size - 1];
+        data_cur.change = new Object();
+
         data_cur.op = buildinfo[start - 4];
+        data_cur.change.op = (data_cur.op == data_pre.op) ? false : true;
         data_cur.runup = buildinfo[start - 2];
+        data_cur.change.runup = (data_cur.op == data_pre.runup) ? false : true;
         data_cur.digits = new Array();
 
         for (var i = 0; i < 5 + num_reg; ++i) {
@@ -183,7 +188,8 @@ function readin() {
         }
 
         var cnt = 0;
-        //var sub = buildinfo.slice(start, end);
+        var numbers = sub.match(/[+-]?\d+(?:\.\d+)?/g);
+        for (var i = 0; i < numbers.length - 1; ++i) numbers[i] = parseInt(numbers[i]);
         for (var i = 0; i < 5 + num_reg; ++i) {
             //data_set.content[data_set.size].digits[i] = new Array();
             for (var j = 0; j < digits; ++j) {
