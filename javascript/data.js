@@ -1,129 +1,48 @@
 //window.buildinfo = document.querySelector("div.container-fluid pre").innerHTML;
 window.buildinfo = 
-"Step 1:\n\
-~ -\n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-Step 2:\n\
-~ -\n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 2 5 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-Step 3:\n\
-~ -\n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 2 5 \n\
-0 0 0 0 0 0 1 7 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-Step 4:\n\
-+ -\n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 2 5 \n\
-0 0 0 0 0 0 1 7 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-Step 5:\n\
-+ -\n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 2 5 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 2 5 \n\
-0 0 0 0 0 0 1 7 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-Step 6:\n\
-+ -\n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 2 5 \n\
-0 0 0 0 0 0 1 7 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-Step 7:\n\
-+ -\n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 2 5 \n\
-0 0 0 0 0 0 1 7 \n\
-0 0 0 0 0 0 4 2 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-0 0 0 0 0 0 0 0 \n\
-42\n\
-"
+"Step 1\n\
+~ 0\n\
+1\n\
+5 25\n\
+-1\n\
+Step 2\n\
+~ 0\n\
+1\n\
+6 17\n\
+-1\n\
+Step 3\n\
++ 0\n\
+0\n\
+-1\n\
+Step 4\n\
++ 0\n\
+1\n\
+1 25\n\
+-1\n\
+Step 5\n\
++ 0\n\
+1\n\
+2 17\n\
+-1\n\
+Step 5\n\
++ 0\n\
+4\n\
+3 0\n\
+4 42\n\
+1 0\n\
+2 0\n\
+-1\n\
+Step 6\n\
++ 0\n\
+1\n\
+7 42\n\
+-1\n\
+Step 7\n\
++ 0\n\
+0\n\
+42"
 
-// items below are data to be presented
-const num_reg = 10;
+const store_size = 10;
 const digits = 8;
 
 //Initializing data_set
@@ -135,7 +54,7 @@ data_set.content[0] = new Object();
 data_set.content[0].op = "~";
 data_set.content[0].runup = 0;
 data_set.content[0].digits = new Array();
-for (var i = 0; i < 5 + num_reg; ++i) {
+for (var i = 0; i < 5 + store_size; ++i) {
     data_set.content[0].digits[i] = new Array();
     for (var j = 0; j < digits; ++j) {
         data_set.content[0].digits[i][j] = 0;
@@ -161,7 +80,7 @@ function readin() {
         data_set.size++;
 
         // Get the substring for information of Step(data_set.size).
-        var start = read_length + 11 + cal_digit(data_set.size);
+        var start = read_length + 10 + cal_digit(data_set.size);
         var sub = buildinfo.slice(start, input_length);
         var end = sub.search("Step", start + 10);
         if (end == -1) end = input_length;
@@ -179,26 +98,28 @@ function readin() {
         data_cur.runup = buildinfo[start - 2];
         data_cur.change.runup = (data_cur.op == data_pre.runup) ? false : true;
         data_cur.digits = new Array();
+        data_cur.change.regs = new Array();
 
-        for (var i = 0; i < 5 + num_reg; ++i) {
+        for (var i = 0; i < 5 + store_size; ++i) {
             data_cur.digits[i] = new Array();
+            data_cur.change.regs[i] = false;
             for (var j = 0; j < digits; ++j) {
                 data_cur.digits[i][j] = data_pre.digits[i][j];
             }
         }
 
-        var cnt = 0;
         var numbers = sub.match(/[+-]?\d+(?:\.\d+)?/g);
         for (var i = 0; i < numbers.length - 1; ++i) numbers[i] = parseInt(numbers[i]);
-        for (var i = 0; i < 5 + num_reg; ++i) {
-            //data_set.content[data_set.size].digits[i] = new Array();
-            for (var j = 0; j < digits; ++j) {
-                data_set.content[data_set.size].digits[i][j] = parseInt(sub[cnt]);
-                cnt += 2;
+        for (var i = 0; i < numbers[0]; ++i) {
+            data_cur.change.regs[numbers[2 * i + 1]] = true;
+            var tmp = numbers[2 * i + 2];
+            for (var j = digits - 1; j >= 0; --j) {
+                data_cur.digits[numbers[2 * i + 1]][j] = tmp % 10;
+                tmp = parseInt(tmp / 10);
             }
-            cnt++;
         }
-        data_set.content[data_set.size].output = sub.slice(cnt, end);
+        
+        data_cur.output = (numbers[numbers.length - 1] == "-1") ? "" : numbers[numbers.length - 1];
     }
 }
 

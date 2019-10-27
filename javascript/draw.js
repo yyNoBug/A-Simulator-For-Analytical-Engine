@@ -52,7 +52,7 @@ const width = cv.width;
 const height = cv.height;
 const left_space = 0.5;
 const middle_space = 0.8;
-const num_w = num_reg + 5 + 2 + middle_space + left_space * 2;
+const num_w = store_size + 5 + 2 + middle_space + left_space * 2;
 const per_pixw = width / num_w;
 const blank_rate_reg = 0.075;
 const umargin_rate = 0.13;
@@ -69,7 +69,7 @@ const dmargin_rate_store = 0.04;
 function draw_store() {
 
     var l_start = (5 + 2 + middle_space + left_space) * per_pixw;
-    var l_end = l_start + num_reg * per_pixw;
+    var l_end = l_start + store_size * per_pixw;
 
     var hi = height * (1 - umargin_rate - dmargin_rate);
     var wi = l_end - l_start;
@@ -83,7 +83,7 @@ function draw_store() {
 
     var blk_h = (y2_reg - y1_reg) / digits;
 
-    for (var i = 0; i < num_reg; ++i) {
+    for (var i = 0; i < store_size; ++i) {
         draw_text(l_start + (i + 0.5) * per_pixw, (umargin_rate * height + y1_reg * 3) / 4, "v" + i, "18px Consolas");
         draw_reg(l_start + (i + blank_rate_reg) * per_pixw, y1_reg, l_start + (i + 1 - blank_rate_reg) * per_pixw, y2_reg);
         for (var j = 0; j < digits; ++j) {
